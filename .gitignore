@@ -10,6 +10,7 @@
 /PCB/EagleLibraries&Dependencies/Eagle-Libraries-master/Eagle-Libraries-master
 /src/LFController/Debug
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 *.xml
 *.suo
