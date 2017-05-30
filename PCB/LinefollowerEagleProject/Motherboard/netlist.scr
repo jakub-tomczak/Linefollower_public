@@ -1,0 +1,145 @@
+# NetScript
+# 
+# Exported from Schemat.sch at 07.04.2017 02:56
+# 
+# EAGLE Version 8.1.0 Copyright (c) 1988-2017 Autodesk, Inc.
+# 
+Change Class 0;
+Signal '5-GND'    'RESET_BUTTON' '5' \
+                  ;
+Change Class 0;
+Signal 'GND'      'C1'       '2' \
+                  'C2'       '2' \
+                  'C3'       '1' \
+                  'C4'       '+' \
+                  'D6'       'A' \
+                  'D7'       'A' \
+                  'D8'       'A' \
+                  'D9'       'A' \
+                  'IC11'     '22' \
+                  'IC11'     '8' \
+                  'MOTOR_CONTROLLER' '12' \
+                  'MOTOR_CONTROLLER' '13' \
+                  'MOTOR_CONTROLLER' '4' \
+                  'MOTOR_CONTROLLER' '5' \
+                  'MOTOR_SOURCE' '2' \
+                  'MOTOR_SOURCE' '3' \
+                  'PROGRAMMING_JUMPER' '6' \
+                  'RESET_BUTTON' '3' \
+                  'RESET_BUTTON' '4' \
+                  'SOURCE'   '1' \
+                  ;
+Change Class 0;
+Signal 'MISO'     'IC11'     '18' \
+                  'PROGRAMMING_JUMPER' '2' \
+                  ;
+Change Class 0;
+Signal 'MOSI'     'IC11'     '17' \
+                  'PROGRAMMING_JUMPER' '3' \
+                  ;
+Change Class 0;
+Signal 'MOTOR1_1' 'D2'       'A' \
+                  'D8'       'C' \
+                  'MOTOR1'   '1' \
+                  'MOTOR_CONTROLLER' '3' \
+                  ;
+Change Class 0;
+Signal 'MOTOR1_1A' 'IC11'     '5' \
+                  'MOTOR_CONTROLLER' '2' \
+                  ;
+Change Class 0;
+Signal 'MOTOR1_2' 'D3'       'A' \
+                  'D9'       'C' \
+                  'MOTOR1'   '2' \
+                  'MOTOR_CONTROLLER' '6' \
+                  ;
+Change Class 0;
+Signal 'MOTOR1_2A' 'IC11'     '12' \
+                  'MOTOR_CONTROLLER' '7' \
+                  ;
+Change Class 0;
+Signal 'MOTOR1_EN' 'IC11'     '4' \
+                  'MOTOR_CONTROLLER' '1' \
+                  ;
+Change Class 0;
+Signal 'MOTOR2_1' 'D4'       'A' \
+                  'D6'       'C' \
+                  'MOTOR2'   '2' \
+                  'MOTOR_CONTROLLER' '14' \
+                  ;
+Change Class 0;
+Signal 'MOTOR2_1A' 'IC11'     '6' \
+                  'MOTOR_CONTROLLER' '15' \
+                  ;
+Change Class 0;
+Signal 'MOTOR2_2' 'D5'       'A' \
+                  'D7'       'C' \
+                  'MOTOR2'   '1' \
+                  'MOTOR_CONTROLLER' '11' \
+                  ;
+Change Class 0;
+Signal 'MOTOR2_2A' 'IC11'     '11' \
+                  'MOTOR_CONTROLLER' '10' \
+                  ;
+Change Class 0;
+Signal 'MOTOR2_EN' 'IC11'     '13' \
+                  'MOTOR_CONTROLLER' '9' \
+                  ;
+Change Class 0;
+Signal 'N$1'      'C2'       '1' \
+                  'IC11'     '10' \
+                  'R2'       'P$2' \
+                  'XTAL'     '2' \
+                  ;
+Change Class 0;
+Signal 'N$2'      'IC11'     '14' \
+                  ;
+Change Class 0;
+Signal 'N$3'      'C1'       '1' \
+                  'IC11'     '9' \
+                  'R2'       'P$1' \
+                  'XTAL'     '1' \
+                  ;
+Change Class 0;
+Signal 'RESET'    'D1'       'A' \
+                  'IC11'     '1' \
+                  'R1'       'P$1' \
+                  'RESET_BUTTON' '1' \
+                  'RESET_BUTTON' '2' \
+                  ;
+Change Class 0;
+Signal 'RX'       'IC11'     '2' \
+                  'TX/RX_TO_BT/WIFI' '2' \
+                  ;
+Change Class 0;
+Signal 'SCK'      'IC11'     '19' \
+                  'PROGRAMMING_JUMPER' '1' \
+                  ;
+Change Class 0;
+Signal 'SS'       'IC11'     '16' \
+                  'PROGRAMMING_JUMPER' '4' \
+                  ;
+Change Class 0;
+Signal 'TX'       'IC11'     '3' \
+                  'TX/RX_TO_BT/WIFI' '1' \
+                  ;
+Change Class 0;
+Signal 'VCC'      'C3'       '2' \
+                  'D1'       'C' \
+                  'IC11'     '20' \
+                  'IC11'     '7' \
+                  'MOTOR_CONTROLLER' '16' \
+                  'MOTOR_SOURCE' '4' \
+                  'PROGRAMMING_JUMPER' '5' \
+                  'R1'       'P$2' \
+                  'SOURCE'   '2' \
+                  ;
+Change Class 0;
+Signal 'VCC_MOTOR' 'C4'       '-' \
+                  'D2'       'C' \
+                  'D3'       'C' \
+                  'D4'       'C' \
+                  'D5'       'C' \
+                  'MOTOR_CONTROLLER' '8' \
+                  'MOTOR_SOURCE' '1' \
+                  ;

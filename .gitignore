@@ -1,0 +1,34 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MiscMaterials/MileStoneI/Images
+/MiscMaterials/MileStoneII
+*.job
+*.lbr
+/PCB/EagleLibraries&Dependencies/Eagle-Libraries-master/Eagle-Libraries-master/Unsorted/elektro
+/PCB/EagleLibraries&Dependencies/Eagle-Libraries-master/Eagle-Libraries-master
+/src/LFController/Debug
+*.vcxproj
+*.vcxproj.filters
+*.xml
+*.suo
+*.hex
+*/Debug/*
+*/__vm/*
+/src/LFControllerOwnPid/Debug
+/src/LFControllerOwnPid/__vm
+/src/UltrasonicSensor/UltrasonicLibrary/HC_SR04 (1).zip
+/src/UltrasonicSensor/UltrasonicLibrary/UltrasonicLibrary.7z
+*.s#*
+*.b#*
+*.d
+*.o
+*.elf
+*.buildinfo
+
+*.filters
+/src/LFControllerPid/__vm/.LFControllerPid.vsarduino (1).h
+*.orig
+/src/Controller/__vm/.Controller.vsarduino.h
+*.a
